@@ -14,4 +14,4 @@ The server is written with Django for a Mongo database.
 - Install the requirements in [requirements.txt](cc_backend/requirements.txt) e.g. with pip `$ pip install -r requirements.txt`
 - Add an environment variable for `SECRET_KEY`.
 - Modify the connection strings in [cc_backend/clusterer/utils.py](cc_backend/clusterer/utils.py) to connect to your database and external API for retrieving data, and add the required environment variables to your system.
-- Start Normally as any Django project ` py manage.py runserver`
+- Start normally as any Django project ` py manage.py runserver`
