@@ -15,3 +15,6 @@ The server is written with Django for a Mongo database.
 - Add an environment variable for `SECRET_KEY`.
 - Modify the connection strings in [cc_backend/clusterer/utils.py](cc_backend/clusterer/utils.py) to connect to your database and external API for retrieving data, and add the required environment variables to your system.
 - Start normally as any Django project `py manage.py runserver`
+
+## Known bugs
+If you go to the instruction page and return to the main page, the app becomes unresponsive. You need to reload the main page again for it to start working correctly.
